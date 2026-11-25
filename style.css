@@ -1,0 +1,126 @@
+
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #2457a7;
+    color: white;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    margin: 0 0 10px;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+/* Form elements */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Buttons */
+button {
+    background-color: #2457a7;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin-top: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #183f7e;
+}
+
+button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+}
+
+/* Status messages */
+#status {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#status.success {
+    color: #155724;
+    background-color: #d4edda;
+}
+
+#status.error {
+    color: #721c24;
+    background-color: #f8d7da;
+}
+
+/* Notes list */
+#notes-list {
+    list-style: none;
+    padding: 0;
+}
+
+#notes-list li {
+    background-color: #f4f6f8;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border-left: 4px solid #2457a7;
+}
+
+#notes-list h3 {
+    margin-top: 0;
+}
+
+.delete-btn {
+    background-color: #c0392b;
+}
+
+.delete-btn:hover {
+    background-color: #922b21;
+}
